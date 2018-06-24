@@ -8,6 +8,8 @@ class WorkbookTest {
     private val workbook = Workbook()
 
     /**
+     * Variables and Types
+     *
      * Create a value called unitCost that is initialized with
      * a Double (decimal) value of 20.99.
      *
@@ -20,6 +22,8 @@ class WorkbookTest {
 
 
     /**
+     * Variables and Types
+     *
      * Create a variable called quantity that is initialized
      * with a Integer value of 5.
      *
@@ -32,6 +36,8 @@ class WorkbookTest {
 
 
     /**
+     * Functions
+     *
      * Write a function called getTotal that returns the
      * total price based on the unitCost and quantity.
      *
@@ -43,6 +49,8 @@ class WorkbookTest {
 //    }
 
     /**
+     * if, else if, else
+     *
      * Add an if statement to the getDollarDiscount function
      * to return the value of 2 when quantity is greater than 10.
      *
@@ -54,6 +62,8 @@ class WorkbookTest {
     }
 
     /**
+     * if, else if, else
+     *
      * Add an else if statement to the getDollarDiscount function
      * to return the value of 1 when quantity is greater than 5.
      *
@@ -65,6 +75,8 @@ class WorkbookTest {
     }
 
     /**
+     * if, else if, else
+     *
      * Add an else statement to the getDollarDiscount function
      * and move the return 0 into it.
      *
@@ -76,6 +88,8 @@ class WorkbookTest {
     }
 
     /**
+     * for loops
+     * 
      * Use a for loop to finish writing the function sumOf1toN
      * which calculates the sum of all integers from 1 through n.
      *
