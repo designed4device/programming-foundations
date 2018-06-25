@@ -5,16 +5,27 @@ class Workbook {
     /**
      * Variables and Types
      */
+    val unitCost: Int = 20
+    var quantity: Int = 5
 
     /**
      * Functions
      */
+    fun getTotal(): Int {
+        return quantity * unitCost
+    }
 
     /**
      * if, else if, else
      */
     fun getDollarDiscount(quantity: Int): Int {
-        return 0
+        if (quantity > 10) {
+            return 2
+        } else if (quantity > 5) {
+            return 1
+        } else {
+            return 0
+        }
     }
 
     /**
@@ -24,7 +35,9 @@ class Workbook {
         var sum = 0
         val range = (1..n)
 
-        //write a for loop that adds all of the values in range to sum
+        for (i in range) {
+            sum += i
+        }
 
         return sum
     }
