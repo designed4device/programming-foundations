@@ -22,7 +22,10 @@ class Workbook {
      */
     fun sumOf1toN(n: Int): Int {
         var sum = 0
-        //write a for loop
+        val range = (1..n)
+
+        //write a for loop that adds all of the values in range to sum
+
         return sum
     }
 }

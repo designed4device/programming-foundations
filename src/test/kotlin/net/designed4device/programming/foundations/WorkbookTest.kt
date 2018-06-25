@@ -11,13 +11,13 @@ class WorkbookTest {
      * Variables and Types
      *
      * Create a value called unitCost that is initialized with
-     * a Double (decimal) value of 20.99.
+     * a Integer value of 20.
      *
      * After implementing, uncomment the following test and run it.
      */
 //    @Test
 //    fun `it stores the unitCost value`() {
-//        assertEquals(20.99, workbook.unitCost)
+//        assertEquals(20, workbook.unitCost)
 //    }
 
 
@@ -45,7 +45,9 @@ class WorkbookTest {
      */
 //    @Test
 //    fun `it calculates the total price`() {
-//        assertEquals(104.95, workbook.getTotal())
+//        assertEquals(100, workbook.getTotal())
+//        workbook.quantity = 10
+//        assertEquals(200, workbook.getTotal())
 //    }
 
     /**
@@ -71,7 +73,7 @@ class WorkbookTest {
      */
     @Test
     fun `it returns the dollar discount of 1 for quantities greater than 5 `() {
-        assertEquals(1, 7)
+        assertEquals(1, workbook.getDollarDiscount(7))
     }
 
     /**
@@ -84,7 +86,7 @@ class WorkbookTest {
      */
     @Test
     fun `it returns the dollar discount of 0 if the quantity is 5 or less`() {
-        assertEquals(0, 2)
+        assertEquals(0, workbook.getDollarDiscount(2))
     }
 
     /**
