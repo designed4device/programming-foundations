@@ -12,6 +12,7 @@ Open [WorkbookTest](src/test/kotlin/net/designed4device/programming/foundations/
 [Compiled and Interpreted Languages](https://thesocietea.org/2015/07/programming-concepts-compiled-and-interpreted-languages/)  
 
 [Variables](https://www.teamten.com/lawrence/programming/intro/intro4.html)  
+[Kotlin Variables](https://antonioleiva.com/variables-kotlin/)    
 [Types](https://www.tutorialspoint.com/computer_programming/computer_programming_data_types.htm)  
 [Kotlin Variables and Types](https://code.tutsplus.com/tutorials/kotlin-from-scratch-variables-basic-types-arrays-type-inference-and-comments--cms-29328)  
 [Functions](https://www.cs.utah.edu/~germain/PPS/Topics/functions.html)  
